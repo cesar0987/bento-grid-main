@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+
+p {
+  color: hsl(0, 0%, 7%);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+body {
+  max-width: 375px;
+  margin-inline: auto;
+  padding: 40px 20px;
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.social-media {
+  padding: 40px 46px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(256, 67%, 59%);
+}
+
+.social-media h1 {
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  padding: 0px;
+  line-height: 48px;
+  font-size: 52px;
+  text-align: center;
+}
+.social-media .highlight {
+  color: rgb(252, 205, 124);
+}
+
+.social-media .faster {
+  font-family: "DM Sans", sans-serif;
+  font-style: italic;
+}
+
+.social-media img {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 192px;
+  height: 37px;
+}
+.social-media p {
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.manage-accounts {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 26px;
+  gap: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+}
+
+.manage-accounts img {
+  width: 100%;
+  height: 96px;
+  margin: 0 auto;
+}
+.manage-accounts p {
+  display: flex;
+  justify-content: flex-start;
+}
+.maintain {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 26px 0px 26px;
+  gap: 20px;
+  background-color: hsl(39, 100%, 71%);
+  border: none;
+  border-radius: 10px;
+}
+
+.maintain img {
+  width: 70%;
+  height: 196px;
+  position: relative;
+}
+.maintain p {
+  display: flex;
+  justify-content: flex-start;
+}
+.schedule {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 26px;
+  gap: 20px;
+  background-color: hsl(254, 88%, 90%);
+  border: none;
+  border-radius: 10px;
+}
+
+.schedule img {
+  width: 100%;
+  height: 180px;
+  margin: 0 auto;
+}
+.schedule p {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.schedule .timing {
+  display: flex;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 26px;
+  gap: 30px;
+  background-color: hsl(256, 67%, 59%);
+  border: none;
+  border-radius: 10px;
+}
+.followers img {
+  width: 100%;
+  height: 145px;
+  margin: 0 auto;
+}
+.followers p {
+  display: flex;
+  margin: 0 50px;
+  text-align: center;
+  font-weight: normal;
+  color: hsl(0, 0%, 100%);
+}
+
+.audience {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 26px;
+  gap: 30px;
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+}
+.audience img {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+}
+.audience p {
+  display: flex;
+  text-align: start;
+  font-weight: normal;
+  color: hsl(0, 0%, 7%);
+}
+
+.quicker {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 26px;
+  gap: 30px;
+  background-color: hsl(31, 66%, 93%);
+  border: none;
+  border-radius: 10px;
+}
+.quicker p {
+  display: flex;
+  width: 100%;
+  text-align: start;
+  font-weight: normal;
+  color: hsl(0, 0%, 7%);
+}
+.quicker img {
+  position: relative;
+  left: -58px;
+  display: flex;
+  width: 60%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.write {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 26px;
+  gap: 30px;
+  background-color: hsl(39, 100%, 71%);
+  border: none;
+  border-radius: 10px;
+}
+.write p {
+  display: flex;
+  text-align: start;
+  font-weight: normal;
+  color: hsl(0, 0%, 7%);
+}
+.write img {
+  width: 100%;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
